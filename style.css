@@ -1,0 +1,11 @@
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.galery-item:not(:first-child) {
+  margin-left: 15px;
+}
+.galery-item {
+  box-shadow: 3px 3px 12px 1px rgba(34, 60, 80, 0.5);
+}
