@@ -3,9 +3,26 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+/* ===============Галерея задание 3================ */
 .galery-item:not(:first-child) {
   margin-left: 15px;
 }
 .galery-item {
   box-shadow: 3px 3px 12px 1px rgba(34, 60, 80, 0.5);
 }
+/* ===============Галерея задание 3================ */
+
+/* ===============импуты задание 6================ */
+#validation-input {
+  border: 3px solid #bdbdbd;
+}
+
+#validation-input.valid {
+  border-color: #4caf50;
+}
+
+#validation-input.invalid {
+  border-color: #f44336;
+}
+/* ===============Импуты задание 6================ */
