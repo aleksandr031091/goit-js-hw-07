@@ -33,7 +33,8 @@ const validInput = () => {
     } else { 
         
         refs.input.classList.add('invalid')
-         refs.input.classList.remove('valid')
+        refs.input.classList.remove('valid')
+
     }
 
 };
